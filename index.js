@@ -45,8 +45,84 @@
 //   console.log(num * i);
 // }
 
-//even number fr(om 1 to 20
-let num = prompt("Enter a number");
-for (i = 2; i % 2 === 0; i += 2) {
-  console.log(i);
+// let data = ["Sulav", "Subedi", 22];
+// console.log(data);
+
+// data.push("Kathmandu");
+// console.log(data);
+
+// data.unshift("chitwan");
+// console.log(data);
+
+// let dummyData = new Array("D1", "D2");
+// console.log(dummyData);
+
+// console.log(data.slice(0, 3));
+
+// data.pop();
+// console.log(data);
+
+// data.shift();
+// console.log(data);
+
+// console.log(data.includes("Sulav"));
+
+// console.log(data.indexOf(22));
+
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let b = a.map((i) => {
+//   return i + 2;
+// });
+// console.log(b);
+
+let person = {
+  name: "Sulav",
+  age: 22,
+  isStudent: true,
+};
+
+console.log(person.name);
+console.log(person.age);
+
+//to add  or update the properties
+person.age = 26;
+person.city = "New work";
+console.log(person);
+
+for (let key in person) {
+  console.log(`${key}:${person[key]}`);
 }
+
+let student = {
+  grade: "A",
+  subjects: ["Math", "Science", "English"],
+};
+console.log(student.subjects[1]);
+
+//Array
+let fruits = ["Apple", "Banana", "Cherry"];
+console.log(fruits);
+fruits.push("Mango"); //Add to end
+console.log(fruits);
+fruits.shift(); //remove first element
+console.log(fruits);
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+let books = [
+  { title: "1984", author: "Shree krishna" },
+  { title: "To kill a mockingbird", author: "V-ten" },
+  { title: "Champion", author: "Steph curry" },
+];
+
+for (let book of books) {
+  console.log(book.title);
+}
+
+let numbers = [1, 2, 3, 4, 5];
+let b = numbers.map((i) => i * 2);
+console.log(b);
+let c = numbers.filter((i) => i > 2);
+console.log(c);
