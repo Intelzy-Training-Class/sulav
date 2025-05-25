@@ -30,11 +30,23 @@
 //   console.log("F");
 // }
 
-//login systemn
-let username = prompt("Enter your username");
-let password = prompt("Enter your password");
-if (username === "admin" && password === "1234") {
-  alert("Login successfull");
-} else {
-  alert("Login failed");
+// //login systemn
+// let username = prompt("Enter your username");
+// let password = prompt("Enter your password");
+// if (username === "admin" && password === "1234") {
+//   alert("Login successfull");
+// } else {
+//   alert("Login failed");
+// }
+
+// print number
+// let num = prompt("Enter any number");
+// for (i = 1; i <= 10; i++) {
+//   console.log(num * i);
+// }
+
+//even number fr(om 1 to 20
+let num = prompt("Enter a number");
+for (i = 2; i % 2 === 0; i += 2) {
+  console.log(i);
 }
