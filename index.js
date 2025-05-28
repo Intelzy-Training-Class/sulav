@@ -75,54 +75,73 @@
 // });
 // console.log(b);
 
-let person = {
-  name: "Sulav",
-  age: 22,
-  isStudent: true,
-};
+// let person = {
+//   name: "Sulav",
+//   age: 22,
+//   isStudent: true,
+// };
 
-console.log(person.name);
-console.log(person.age);
+// console.log(person.name);
+// console.log(person.age);
 
-//to add  or update the properties
-person.age = 26;
-person.city = "New work";
-console.log(person);
+// //to add  or update the properties
+// person.age = 26;
+// person.city = "New work";
+// console.log(person);
 
-for (let key in person) {
-  console.log(`${key}:${person[key]}`);
-}
+// for (let key in person) {
+//   console.log(`${key}:${person[key]}`);
+// }
 
-let student = {
-  grade: "A",
-  subjects: ["Math", "Science", "English"],
-};
-console.log(student.subjects[1]);
+// let student = {
+//   grade: "A",
+//   subjects: ["Math", "Science", "English"],
+// };
+// console.log(student.subjects[1]);
 
-//Array
-let fruits = ["Apple", "Banana", "Cherry"];
-console.log(fruits);
-fruits.push("Mango"); //Add to end
-console.log(fruits);
-fruits.shift(); //remove first element
-console.log(fruits);
+// //Array
+// let fruits = ["Apple", "Banana", "Cherry"];
+// console.log(fruits);
+// fruits.push("Mango"); //Add to end
+// console.log(fruits);
+// fruits.shift(); //remove first element
+// console.log(fruits);
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
 
-let books = [
-  { title: "1984", author: "Shree krishna" },
-  { title: "To kill a mockingbird", author: "V-ten" },
-  { title: "Champion", author: "Steph curry" },
-];
+// let books = [
+//   { title: "1984", author: "Shree krishna" },
+//   { title: "To kill a mockingbird", author: "V-ten" },
+//   { title: "Champion", author: "Steph curry" },
+// ];
 
-for (let book of books) {
-  console.log(book.title);
-}
+// for (let book of books) {
+//   console.log(book.title);
+// }
 
-let numbers = [1, 2, 3, 4, 5];
-let b = numbers.map((i) => i * 2);
-console.log(b);
-let c = numbers.filter((i) => i > 2);
-console.log(c);
+// let numbers = [1, 2, 3, 4, 5];
+// let b = numbers.map((i) => i * 2);
+// console.log(b);
+// let c = numbers.filter((i) => i > 2);
+// console.log(c);
+
+// function greet(name) {
+//   console.log(`Hello, ${name}`);
+// }
+
+// greet("Sulav");
+
+// function sayHello() {
+//   console.log("HEllo world");
+// }
+// sayHello();
+
+// function multiply(a, b) {
+//   return a * b;
+// }
+// console.log(`The multiplication is ${multiply(3, 10)}`);
+
+const add = (a, b) => a + b;
+console.log(add(3, 4));
